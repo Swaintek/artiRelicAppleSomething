@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Beacon" representedClassName="Beacon" syncable="YES">
+        <attribute name="major" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uiid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="piece" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Piece" inverseName="beacon" inverseEntity="Piece" syncable="YES"/>
+    </entity>
+    <entity name="Curator" representedClassName="Curator" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="shows" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Show" inverseName="curator" inverseEntity="Show" syncable="YES"/>
+    </entity>
+    <entity name="Patron" representedClassName="Patron" syncable="YES">
+        <attribute name="atShow" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="show" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Show" inverseName="patrons" inverseEntity="Show" syncable="YES"/>
+    </entity>
+    <entity name="Piece" representedClassName="Piece" syncable="YES">
+        <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dimensions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="beacon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Beacon" inverseName="piece" inverseEntity="Beacon" syncable="YES"/>
+        <relationship name="show" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Show" inverseName="pieces" inverseEntity="Show" syncable="YES"/>
+    </entity>
+    <entity name="Show" representedClassName="Show" syncable="YES">
+        <attribute name="dates" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gallery" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="curator" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Curator" inverseName="shows" inverseEntity="Curator" syncable="YES"/>
+        <relationship name="patrons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Patron" inverseName="show" inverseEntity="Patron" syncable="YES"/>
+        <relationship name="pieces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Piece" inverseName="show" inverseEntity="Piece" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Piece" positionX="4588" positionY="1413" width="128" height="178"/>
+        <element name="Show" positionX="4381" positionY="1413" width="128" height="163"/>
+        <element name="Curator" positionX="4392" positionY="1679" width="128" height="58"/>
+        <element name="Beacon" positionX="4606" positionY="1679" width="128" height="103"/>
+        <element name="Patron" positionX="4221" positionY="1593" width="128" height="73"/>
+    </elements>
+</model>

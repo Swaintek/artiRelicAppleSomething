@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707DDA5E1D52982E00F57408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA5D1D52982E00F57408 /* main.m */; };
+		707DDA611D52982E00F57408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA601D52982E00F57408 /* AppDelegate.m */; };
+		707DDA641D52982E00F57408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA631D52982E00F57408 /* ViewController.m */; };
+		707DDA671D52982E00F57408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DDA651D52982E00F57408 /* Main.storyboard */; };
+		707DDA691D52982E00F57408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707DDA681D52982E00F57408 /* Assets.xcassets */; };
+		707DDA6C1D52982E00F57408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DDA6A1D52982E00F57408 /* LaunchScreen.storyboard */; };
+		707DDA771D52982F00F57408 /* RelicExploratoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA761D52982F00F57408 /* RelicExploratoryTests.m */; };
+		707DDA821D52982F00F57408 /* RelicExploratoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA811D52982F00F57408 /* RelicExploratoryUITests.m */; };
+		707DDA981D54245100F57408 /* Relic.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA971D54245100F57408 /* Relic.m */; };
+		707DDA9D1D54EC4A00F57408 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDA9C1D54EC4A00F57408 /* Bolts.framework */; };
+		707DDA9F1D54EC5B00F57408 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDA9E1D54EC5B00F57408 /* Parse.framework */; };
+		707DDAEB1D54F51F00F57408 /* Parse.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 707DDA9E1D54EC5B00F57408 /* Parse.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		707DDAEC1D54F52500F57408 /* Bolts.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 707DDA9C1D54EC4A00F57408 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		707DDAEE1D554C8D00F57408 /* PushmoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDAED1D554C8D00F57408 /* PushmoteSDK.framework */; };
+		707DDAF01D554CA900F57408 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDAEF1D554CA900F57408 /* CoreBluetooth.framework */; };
+		707DDAF21D554CAF00F57408 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDAF11D554CAF00F57408 /* CoreLocation.framework */; };
+		707DDAF41D554CB700F57408 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDAF31D554CB700F57408 /* MediaPlayer.framework */; };
+		707DDAF61D554CC200F57408 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDAF51D554CC200F57408 /* MessageUI.framework */; };
+		707DDAF81D554CC900F57408 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707DDAF71D554CC900F57408 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707DDA731D52982F00F57408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707DDA511D52982E00F57408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707DDA581D52982E00F57408;
+			remoteInfo = RelicExploratory;
+		};
+		707DDA7E1D52982F00F57408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707DDA511D52982E00F57408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707DDA581D52982E00F57408;
+			remoteInfo = RelicExploratory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		707DDAA01D54ECD800F57408 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				707DDAEC1D54F52500F57408 /* Bolts.framework in CopyFiles */,
+				707DDAEB1D54F51F00F57408 /* Parse.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		707DDA591D52982E00F57408 /* RelicExploratory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelicExploratory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DDA5D1D52982E00F57408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		707DDA5F1D52982E00F57408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		707DDA601D52982E00F57408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		707DDA621D52982E00F57408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		707DDA631D52982E00F57408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		707DDA661D52982E00F57408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707DDA681D52982E00F57408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		707DDA6B1D52982E00F57408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		707DDA6D1D52982E00F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDA721D52982F00F57408 /* RelicExploratoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelicExploratoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DDA761D52982F00F57408 /* RelicExploratoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelicExploratoryTests.m; sourceTree = "<group>"; };
+		707DDA781D52982F00F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDA7D1D52982F00F57408 /* RelicExploratoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelicExploratoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DDA811D52982F00F57408 /* RelicExploratoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RelicExploratoryUITests.m; sourceTree = "<group>"; };
+		707DDA831D52982F00F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDA961D54245100F57408 /* Relic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Relic.h; path = ../Relic.h; sourceTree = "<group>"; };
+		707DDA971D54245100F57408 /* Relic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Relic.m; path = ../Relic.m; sourceTree = "<group>"; };
+		707DDA9C1D54EC4A00F57408 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		707DDA9E1D54EC5B00F57408 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		707DDAED1D554C8D00F57408 /* PushmoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PushmoteSDK.framework; sourceTree = "<group>"; };
+		707DDAEF1D554CA900F57408 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		707DDAF11D554CAF00F57408 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		707DDAF31D554CB700F57408 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		707DDAF51D554CC200F57408 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		707DDAF71D554CC900F57408 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707DDA561D52982E00F57408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDAF81D554CC900F57408 /* Accelerate.framework in Frameworks */,
+				707DDAF61D554CC200F57408 /* MessageUI.framework in Frameworks */,
+				707DDAF41D554CB700F57408 /* MediaPlayer.framework in Frameworks */,
+				707DDAF21D554CAF00F57408 /* CoreLocation.framework in Frameworks */,
+				707DDAF01D554CA900F57408 /* CoreBluetooth.framework in Frameworks */,
+				707DDAEE1D554C8D00F57408 /* PushmoteSDK.framework in Frameworks */,
+				707DDA9F1D54EC5B00F57408 /* Parse.framework in Frameworks */,
+				707DDA9D1D54EC4A00F57408 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDA6F1D52982F00F57408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDA7A1D52982F00F57408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707DDA501D52982E00F57408 = {
+			isa = PBXGroup;
+			children = (
+				707DDA5B1D52982E00F57408 /* RelicExploratory */,
+				707DDA751D52982F00F57408 /* RelicExploratoryTests */,
+				707DDA801D52982F00F57408 /* RelicExploratoryUITests */,
+				707DDA5A1D52982E00F57408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707DDA5A1D52982E00F57408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707DDA591D52982E00F57408 /* RelicExploratory.app */,
+				707DDA721D52982F00F57408 /* RelicExploratoryTests.xctest */,
+				707DDA7D1D52982F00F57408 /* RelicExploratoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707DDA5B1D52982E00F57408 /* RelicExploratory */ = {
+			isa = PBXGroup;
+			children = (
+				707DDA5F1D52982E00F57408 /* AppDelegate.h */,
+				707DDA601D52982E00F57408 /* AppDelegate.m */,
+				707DDA621D52982E00F57408 /* ViewController.h */,
+				707DDA631D52982E00F57408 /* ViewController.m */,
+				707DDA651D52982E00F57408 /* Main.storyboard */,
+				707DDA681D52982E00F57408 /* Assets.xcassets */,
+				707DDA6A1D52982E00F57408 /* LaunchScreen.storyboard */,
+				707DDA961D54245100F57408 /* Relic.h */,
+				707DDA971D54245100F57408 /* Relic.m */,
+				707DDA6D1D52982E00F57408 /* Info.plist */,
+				707DDA5C1D52982E00F57408 /* Supporting Files */,
+			);
+			path = RelicExploratory;
+			sourceTree = "<group>";
+		};
+		707DDA5C1D52982E00F57408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707DDAF71D554CC900F57408 /* Accelerate.framework */,
+				707DDAF51D554CC200F57408 /* MessageUI.framework */,
+				707DDAF31D554CB700F57408 /* MediaPlayer.framework */,
+				707DDAF11D554CAF00F57408 /* CoreLocation.framework */,
+				707DDAEF1D554CA900F57408 /* CoreBluetooth.framework */,
+				707DDAED1D554C8D00F57408 /* PushmoteSDK.framework */,
+				707DDA9E1D54EC5B00F57408 /* Parse.framework */,
+				707DDA9C1D54EC4A00F57408 /* Bolts.framework */,
+				707DDA5D1D52982E00F57408 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707DDA751D52982F00F57408 /* RelicExploratoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				707DDA761D52982F00F57408 /* RelicExploratoryTests.m */,
+				707DDA781D52982F00F57408 /* Info.plist */,
+			);
+			path = RelicExploratoryTests;
+			sourceTree = "<group>";
+		};
+		707DDA801D52982F00F57408 /* RelicExploratoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				707DDA811D52982F00F57408 /* RelicExploratoryUITests.m */,
+				707DDA831D52982F00F57408 /* Info.plist */,
+			);
+			path = RelicExploratoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707DDA581D52982E00F57408 /* RelicExploratory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707DDA861D52982F00F57408 /* Build configuration list for PBXNativeTarget "RelicExploratory" */;
+			buildPhases = (
+				707DDA551D52982E00F57408 /* Sources */,
+				707DDA561D52982E00F57408 /* Frameworks */,
+				707DDA571D52982E00F57408 /* Resources */,
+				707DDAA01D54ECD800F57408 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RelicExploratory;
+			productName = RelicExploratory;
+			productReference = 707DDA591D52982E00F57408 /* RelicExploratory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707DDA711D52982F00F57408 /* RelicExploratoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707DDA891D52982F00F57408 /* Build configuration list for PBXNativeTarget "RelicExploratoryTests" */;
+			buildPhases = (
+				707DDA6E1D52982F00F57408 /* Sources */,
+				707DDA6F1D52982F00F57408 /* Frameworks */,
+				707DDA701D52982F00F57408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707DDA741D52982F00F57408 /* PBXTargetDependency */,
+			);
+			name = RelicExploratoryTests;
+			productName = RelicExploratoryTests;
+			productReference = 707DDA721D52982F00F57408 /* RelicExploratoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		707DDA7C1D52982F00F57408 /* RelicExploratoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707DDA8C1D52982F00F57408 /* Build configuration list for PBXNativeTarget "RelicExploratoryUITests" */;
+			buildPhases = (
+				707DDA791D52982F00F57408 /* Sources */,
+				707DDA7A1D52982F00F57408 /* Frameworks */,
+				707DDA7B1D52982F00F57408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707DDA7F1D52982F00F57408 /* PBXTargetDependency */,
+			);
+			name = RelicExploratoryUITests;
+			productName = RelicExploratoryUITests;
+			productReference = 707DDA7D1D52982F00F57408 /* RelicExploratoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707DDA511D52982E00F57408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeremy Moore";
+				TargetAttributes = {
+					707DDA581D52982E00F57408 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					707DDA711D52982F00F57408 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 707DDA581D52982E00F57408;
+					};
+					707DDA7C1D52982F00F57408 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 707DDA581D52982E00F57408;
+					};
+				};
+			};
+			buildConfigurationList = 707DDA541D52982E00F57408 /* Build configuration list for PBXProject "RelicExploratory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707DDA501D52982E00F57408;
+			productRefGroup = 707DDA5A1D52982E00F57408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707DDA581D52982E00F57408 /* RelicExploratory */,
+				707DDA711D52982F00F57408 /* RelicExploratoryTests */,
+				707DDA7C1D52982F00F57408 /* RelicExploratoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707DDA571D52982E00F57408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDA6C1D52982E00F57408 /* LaunchScreen.storyboard in Resources */,
+				707DDA691D52982E00F57408 /* Assets.xcassets in Resources */,
+				707DDA671D52982E00F57408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDA701D52982F00F57408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDA7B1D52982F00F57408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707DDA551D52982E00F57408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDA641D52982E00F57408 /* ViewController.m in Sources */,
+				707DDA981D54245100F57408 /* Relic.m in Sources */,
+				707DDA611D52982E00F57408 /* AppDelegate.m in Sources */,
+				707DDA5E1D52982E00F57408 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDA6E1D52982F00F57408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDA771D52982F00F57408 /* RelicExploratoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDA791D52982F00F57408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDA821D52982F00F57408 /* RelicExploratoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707DDA741D52982F00F57408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707DDA581D52982E00F57408 /* RelicExploratory */;
+			targetProxy = 707DDA731D52982F00F57408 /* PBXContainerItemProxy */;
+		};
+		707DDA7F1D52982F00F57408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707DDA581D52982E00F57408 /* RelicExploratory */;
+			targetProxy = 707DDA7E1D52982F00F57408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707DDA651D52982E00F57408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707DDA661D52982E00F57408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		707DDA6A1D52982E00F57408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707DDA6B1D52982E00F57408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707DDA841D52982F00F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		707DDA851D52982F00F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707DDA871D52982F00F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/RelicExploratory",
+				);
+				INFOPLIST_FILE = RelicExploratory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.RelicExploratory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		707DDA881D52982F00F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/RelicExploratory",
+				);
+				INFOPLIST_FILE = RelicExploratory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.RelicExploratory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		707DDA8A1D52982F00F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RelicExploratoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.RelicExploratoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelicExploratory.app/RelicExploratory";
+			};
+			name = Debug;
+		};
+		707DDA8B1D52982F00F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RelicExploratoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.RelicExploratoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RelicExploratory.app/RelicExploratory";
+			};
+			name = Release;
+		};
+		707DDA8D1D52982F00F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RelicExploratoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.RelicExploratoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RelicExploratory;
+			};
+			name = Debug;
+		};
+		707DDA8E1D52982F00F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RelicExploratoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.RelicExploratoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RelicExploratory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707DDA541D52982E00F57408 /* Build configuration list for PBXProject "RelicExploratory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDA841D52982F00F57408 /* Debug */,
+				707DDA851D52982F00F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707DDA861D52982F00F57408 /* Build configuration list for PBXNativeTarget "RelicExploratory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDA871D52982F00F57408 /* Debug */,
+				707DDA881D52982F00F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707DDA891D52982F00F57408 /* Build configuration list for PBXNativeTarget "RelicExploratoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDA8A1D52982F00F57408 /* Debug */,
+				707DDA8B1D52982F00F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707DDA8C1D52982F00F57408 /* Build configuration list for PBXNativeTarget "RelicExploratoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDA8D1D52982F00F57408 /* Debug */,
+				707DDA8E1D52982F00F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707DDA511D52982E00F57408 /* Project object */;
+}

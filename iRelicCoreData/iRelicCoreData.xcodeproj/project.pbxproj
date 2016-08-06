@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707DDB091D56669400F57408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB081D56669400F57408 /* main.m */; };
+		707DDB0C1D56669400F57408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB0B1D56669400F57408 /* AppDelegate.m */; };
+		707DDB0F1D56669400F57408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB0E1D56669400F57408 /* ViewController.m */; };
+		707DDB121D56669400F57408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DDB101D56669400F57408 /* Main.storyboard */; };
+		707DDB151D56669400F57408 /* iRelicCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB131D56669400F57408 /* iRelicCoreData.xcdatamodeld */; };
+		707DDB171D56669400F57408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707DDB161D56669400F57408 /* Assets.xcassets */; };
+		707DDB1A1D56669400F57408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707DDB181D56669400F57408 /* LaunchScreen.storyboard */; };
+		707DDB251D56669400F57408 /* iRelicCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB241D56669400F57408 /* iRelicCoreDataTests.m */; };
+		707DDB301D56669400F57408 /* iRelicCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB2F1D56669400F57408 /* iRelicCoreDataUITests.m */; };
+		707DDB3F1D5666F500F57408 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB3E1D5666F500F57408 /* CoreDataStack.m */; };
+		707DDB761D5684DF00F57408 /* Curator+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB631D5684DF00F57408 /* Curator+CoreDataProperties.m */; };
+		707DDB771D5684DF00F57408 /* Curator.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB651D5684DF00F57408 /* Curator.m */; };
+		707DDB781D5684DF00F57408 /* Show+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB671D5684DF00F57408 /* Show+CoreDataProperties.m */; };
+		707DDB791D5684DF00F57408 /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB691D5684DF00F57408 /* Show.m */; };
+		707DDB7A1D5684DF00F57408 /* Beacon+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB6B1D5684DF00F57408 /* Beacon+CoreDataProperties.m */; };
+		707DDB7B1D5684DF00F57408 /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB6D1D5684DF00F57408 /* Beacon.m */; };
+		707DDB7C1D5684DF00F57408 /* Patron+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB6F1D5684DF00F57408 /* Patron+CoreDataProperties.m */; };
+		707DDB7D1D5684DF00F57408 /* Patron.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB711D5684DF00F57408 /* Patron.m */; };
+		707DDB7E1D5684DF00F57408 /* Piece+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */; };
+		707DDB7F1D5684DF00F57408 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB751D5684DF00F57408 /* Piece.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707DDB211D56669400F57408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707DDAFC1D56669400F57408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707DDB031D56669400F57408;
+			remoteInfo = iRelicCoreData;
+		};
+		707DDB2C1D56669400F57408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707DDAFC1D56669400F57408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707DDB031D56669400F57408;
+			remoteInfo = iRelicCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		707DDB041D56669400F57408 /* iRelicCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRelicCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DDB081D56669400F57408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		707DDB0A1D56669400F57408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		707DDB0B1D56669400F57408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		707DDB0D1D56669400F57408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		707DDB0E1D56669400F57408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		707DDB111D56669400F57408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707DDB141D56669400F57408 /* iRelicCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRelicCoreData.xcdatamodel; sourceTree = "<group>"; };
+		707DDB161D56669400F57408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		707DDB191D56669400F57408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		707DDB1B1D56669400F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDB201D56669400F57408 /* iRelicCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRelicCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DDB241D56669400F57408 /* iRelicCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRelicCoreDataTests.m; sourceTree = "<group>"; };
+		707DDB261D56669400F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDB2B1D56669400F57408 /* iRelicCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRelicCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707DDB2F1D56669400F57408 /* iRelicCoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRelicCoreDataUITests.m; sourceTree = "<group>"; };
+		707DDB311D56669400F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDB3D1D5666F500F57408 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		707DDB3E1D5666F500F57408 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		707DDB621D5684DF00F57408 /* Curator+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Curator+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB631D5684DF00F57408 /* Curator+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Curator+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB641D5684DF00F57408 /* Curator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curator.h; sourceTree = "<group>"; };
+		707DDB651D5684DF00F57408 /* Curator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curator.m; sourceTree = "<group>"; };
+		707DDB661D5684DF00F57408 /* Show+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Show+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB671D5684DF00F57408 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Show+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB681D5684DF00F57408 /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
+		707DDB691D5684DF00F57408 /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
+		707DDB6A1D5684DF00F57408 /* Beacon+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beacon+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB6B1D5684DF00F57408 /* Beacon+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beacon+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB6C1D5684DF00F57408 /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
+		707DDB6D1D5684DF00F57408 /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beacon.m; sourceTree = "<group>"; };
+		707DDB6E1D5684DF00F57408 /* Patron+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Patron+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB6F1D5684DF00F57408 /* Patron+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Patron+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB701D5684DF00F57408 /* Patron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patron.h; sourceTree = "<group>"; };
+		707DDB711D5684DF00F57408 /* Patron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patron.m; sourceTree = "<group>"; };
+		707DDB721D5684DF00F57408 /* Piece+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Piece+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Piece+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB741D5684DF00F57408 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		707DDB751D5684DF00F57408 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		707DDB801D56880600F57408 /* iRelicCoreData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iRelicCoreData.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707DDB011D56669400F57408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDB1D1D56669400F57408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDB281D56669400F57408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707DDAFB1D56669400F57408 = {
+			isa = PBXGroup;
+			children = (
+				707DDB061D56669400F57408 /* iRelicCoreData */,
+				707DDB231D56669400F57408 /* iRelicCoreDataTests */,
+				707DDB2E1D56669400F57408 /* iRelicCoreDataUITests */,
+				707DDB051D56669400F57408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707DDB051D56669400F57408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB041D56669400F57408 /* iRelicCoreData.app */,
+				707DDB201D56669400F57408 /* iRelicCoreDataTests.xctest */,
+				707DDB2B1D56669400F57408 /* iRelicCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707DDB061D56669400F57408 /* iRelicCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB801D56880600F57408 /* iRelicCoreData.entitlements */,
+				707DDB5E1D56848D00F57408 /* Global */,
+				707DDB611D5684AB00F57408 /* Model */,
+				707DDB5F1D56849B00F57408 /* Controller */,
+				707DDB601D5684A500F57408 /* View */,
+				707DDB161D56669400F57408 /* Assets.xcassets */,
+				707DDB1B1D56669400F57408 /* Info.plist */,
+				707DDB131D56669400F57408 /* iRelicCoreData.xcdatamodeld */,
+				707DDB071D56669400F57408 /* Supporting Files */,
+				707DDB3D1D5666F500F57408 /* CoreDataStack.h */,
+				707DDB3E1D5666F500F57408 /* CoreDataStack.m */,
+			);
+			path = iRelicCoreData;
+			sourceTree = "<group>";
+		};
+		707DDB071D56669400F57408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB081D56669400F57408 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707DDB231D56669400F57408 /* iRelicCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB241D56669400F57408 /* iRelicCoreDataTests.m */,
+				707DDB261D56669400F57408 /* Info.plist */,
+			);
+			path = iRelicCoreDataTests;
+			sourceTree = "<group>";
+		};
+		707DDB2E1D56669400F57408 /* iRelicCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB2F1D56669400F57408 /* iRelicCoreDataUITests.m */,
+				707DDB311D56669400F57408 /* Info.plist */,
+			);
+			path = iRelicCoreDataUITests;
+			sourceTree = "<group>";
+		};
+		707DDB5E1D56848D00F57408 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB0A1D56669400F57408 /* AppDelegate.h */,
+				707DDB0B1D56669400F57408 /* AppDelegate.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		707DDB5F1D56849B00F57408 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB0D1D56669400F57408 /* ViewController.h */,
+				707DDB0E1D56669400F57408 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		707DDB601D5684A500F57408 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB101D56669400F57408 /* Main.storyboard */,
+				707DDB181D56669400F57408 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		707DDB611D5684AB00F57408 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB621D5684DF00F57408 /* Curator+CoreDataProperties.h */,
+				707DDB631D5684DF00F57408 /* Curator+CoreDataProperties.m */,
+				707DDB641D5684DF00F57408 /* Curator.h */,
+				707DDB651D5684DF00F57408 /* Curator.m */,
+				707DDB661D5684DF00F57408 /* Show+CoreDataProperties.h */,
+				707DDB671D5684DF00F57408 /* Show+CoreDataProperties.m */,
+				707DDB681D5684DF00F57408 /* Show.h */,
+				707DDB691D5684DF00F57408 /* Show.m */,
+				707DDB6A1D5684DF00F57408 /* Beacon+CoreDataProperties.h */,
+				707DDB6B1D5684DF00F57408 /* Beacon+CoreDataProperties.m */,
+				707DDB6C1D5684DF00F57408 /* Beacon.h */,
+				707DDB6D1D5684DF00F57408 /* Beacon.m */,
+				707DDB6E1D5684DF00F57408 /* Patron+CoreDataProperties.h */,
+				707DDB6F1D5684DF00F57408 /* Patron+CoreDataProperties.m */,
+				707DDB701D5684DF00F57408 /* Patron.h */,
+				707DDB711D5684DF00F57408 /* Patron.m */,
+				707DDB721D5684DF00F57408 /* Piece+CoreDataProperties.h */,
+				707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */,
+				707DDB741D5684DF00F57408 /* Piece.h */,
+				707DDB751D5684DF00F57408 /* Piece.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707DDB031D56669400F57408 /* iRelicCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707DDB341D56669400F57408 /* Build configuration list for PBXNativeTarget "iRelicCoreData" */;
+			buildPhases = (
+				707DDB001D56669400F57408 /* Sources */,
+				707DDB011D56669400F57408 /* Frameworks */,
+				707DDB021D56669400F57408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRelicCoreData;
+			productName = iRelicCoreData;
+			productReference = 707DDB041D56669400F57408 /* iRelicCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707DDB1F1D56669400F57408 /* iRelicCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707DDB371D56669400F57408 /* Build configuration list for PBXNativeTarget "iRelicCoreDataTests" */;
+			buildPhases = (
+				707DDB1C1D56669400F57408 /* Sources */,
+				707DDB1D1D56669400F57408 /* Frameworks */,
+				707DDB1E1D56669400F57408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707DDB221D56669400F57408 /* PBXTargetDependency */,
+			);
+			name = iRelicCoreDataTests;
+			productName = iRelicCoreDataTests;
+			productReference = 707DDB201D56669400F57408 /* iRelicCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		707DDB2A1D56669400F57408 /* iRelicCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707DDB3A1D56669400F57408 /* Build configuration list for PBXNativeTarget "iRelicCoreDataUITests" */;
+			buildPhases = (
+				707DDB271D56669400F57408 /* Sources */,
+				707DDB281D56669400F57408 /* Frameworks */,
+				707DDB291D56669400F57408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707DDB2D1D56669400F57408 /* PBXTargetDependency */,
+			);
+			name = iRelicCoreDataUITests;
+			productName = iRelicCoreDataUITests;
+			productReference = 707DDB2B1D56669400F57408 /* iRelicCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707DDAFC1D56669400F57408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeremy Moore";
+				TargetAttributes = {
+					707DDB031D56669400F57408 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QB9VT5PHVK;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					707DDB1F1D56669400F57408 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 707DDB031D56669400F57408;
+					};
+					707DDB2A1D56669400F57408 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 707DDB031D56669400F57408;
+					};
+				};
+			};
+			buildConfigurationList = 707DDAFF1D56669400F57408 /* Build configuration list for PBXProject "iRelicCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707DDAFB1D56669400F57408;
+			productRefGroup = 707DDB051D56669400F57408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707DDB031D56669400F57408 /* iRelicCoreData */,
+				707DDB1F1D56669400F57408 /* iRelicCoreDataTests */,
+				707DDB2A1D56669400F57408 /* iRelicCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707DDB021D56669400F57408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDB1A1D56669400F57408 /* LaunchScreen.storyboard in Resources */,
+				707DDB171D56669400F57408 /* Assets.xcassets in Resources */,
+				707DDB121D56669400F57408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDB1E1D56669400F57408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDB291D56669400F57408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707DDB001D56669400F57408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDB7E1D5684DF00F57408 /* Piece+CoreDataProperties.m in Sources */,
+				707DDB781D5684DF00F57408 /* Show+CoreDataProperties.m in Sources */,
+				707DDB791D5684DF00F57408 /* Show.m in Sources */,
+				707DDB7D1D5684DF00F57408 /* Patron.m in Sources */,
+				707DDB761D5684DF00F57408 /* Curator+CoreDataProperties.m in Sources */,
+				707DDB7A1D5684DF00F57408 /* Beacon+CoreDataProperties.m in Sources */,
+				707DDB3F1D5666F500F57408 /* CoreDataStack.m in Sources */,
+				707DDB7C1D5684DF00F57408 /* Patron+CoreDataProperties.m in Sources */,
+				707DDB771D5684DF00F57408 /* Curator.m in Sources */,
+				707DDB7B1D5684DF00F57408 /* Beacon.m in Sources */,
+				707DDB0F1D56669400F57408 /* ViewController.m in Sources */,
+				707DDB0C1D56669400F57408 /* AppDelegate.m in Sources */,
+				707DDB7F1D5684DF00F57408 /* Piece.m in Sources */,
+				707DDB151D56669400F57408 /* iRelicCoreData.xcdatamodeld in Sources */,
+				707DDB091D56669400F57408 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDB1C1D56669400F57408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDB251D56669400F57408 /* iRelicCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707DDB271D56669400F57408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707DDB301D56669400F57408 /* iRelicCoreDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707DDB221D56669400F57408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707DDB031D56669400F57408 /* iRelicCoreData */;
+			targetProxy = 707DDB211D56669400F57408 /* PBXContainerItemProxy */;
+		};
+		707DDB2D1D56669400F57408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707DDB031D56669400F57408 /* iRelicCoreData */;
+			targetProxy = 707DDB2C1D56669400F57408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707DDB101D56669400F57408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707DDB111D56669400F57408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		707DDB181D56669400F57408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707DDB191D56669400F57408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707DDB321D56669400F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		707DDB331D56669400F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707DDB351D56669400F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iRelicCoreData/iRelicCoreData.entitlements;
+				INFOPLIST_FILE = iRelicCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.iRelicCoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		707DDB361D56669400F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iRelicCoreData/iRelicCoreData.entitlements;
+				INFOPLIST_FILE = iRelicCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.iRelicCoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		707DDB381D56669400F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iRelicCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.iRelicCoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRelicCoreData.app/iRelicCoreData";
+			};
+			name = Debug;
+		};
+		707DDB391D56669400F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iRelicCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.iRelicCoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRelicCoreData.app/iRelicCoreData";
+			};
+			name = Release;
+		};
+		707DDB3B1D56669400F57408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iRelicCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.iRelicCoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iRelicCoreData;
+			};
+			name = Debug;
+		};
+		707DDB3C1D56669400F57408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iRelicCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Moore-and-Daughters.iRelicCoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iRelicCoreData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707DDAFF1D56669400F57408 /* Build configuration list for PBXProject "iRelicCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDB321D56669400F57408 /* Debug */,
+				707DDB331D56669400F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707DDB341D56669400F57408 /* Build configuration list for PBXNativeTarget "iRelicCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDB351D56669400F57408 /* Debug */,
+				707DDB361D56669400F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707DDB371D56669400F57408 /* Build configuration list for PBXNativeTarget "iRelicCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDB381D56669400F57408 /* Debug */,
+				707DDB391D56669400F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707DDB3A1D56669400F57408 /* Build configuration list for PBXNativeTarget "iRelicCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707DDB3B1D56669400F57408 /* Debug */,
+				707DDB3C1D56669400F57408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		707DDB131D56669400F57408 /* iRelicCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				707DDB141D56669400F57408 /* iRelicCoreData.xcdatamodel */,
+			);
+			currentVersion = 707DDB141D56669400F57408 /* iRelicCoreData.xcdatamodel */;
+			path = iRelicCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 707DDAFC1D56669400F57408 /* Project object */;
+}

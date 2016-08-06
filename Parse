@@ -1,0 +1,7 @@
+make cartfile:
+github "ParsePlatform/Parse-SDK-iOS-OSX"
+
+run (in terminal):
+carthage update --platform "iOS"
+
+plist setting for parse and bolts
