@@ -8,9 +8,18 @@
 
 #import "Beacon.h"
 #import "Piece.h"
+#import "NSManagedObjectContext+NSManagedObjectContext.h"
 
 @implementation Beacon
 
-// Insert code here to add functionality to your managed object subclass
++ (instancetype)beaconWithUIID: (NSString *)uiid major:(NSString *)major minor:(NSString *)minor
+{
+    Beacon *beacon = [NSEntityDescription insertNewObjectForEntityForName:@"Beacon" inManagedObjectContext:[NSManagedObjectContext managerContext]];
+    beacon.uiid = uiid;
+    beacon.major = major;
+    beacon.minor = minor;
+    
+    return beacon;
+}
 
 @end

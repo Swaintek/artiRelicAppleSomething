@@ -11,11 +11,12 @@
 
 @class Curator, Patron, Piece;
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Show : NSManagedObject
 
-// Insert code here to declare functionality of your managed object subclass
++ (instancetype)showWithTitle:(NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc gallery:(NSString *)gallery dates:(NSString *)dates pieces:(NSSet<Piece *> *)pieces curator:(Curator *)curator patrons:(NSSet<Patron *> *)patrons;
 
 @end
 

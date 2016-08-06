@@ -11,11 +11,12 @@
 
 @class Beacon, Show;
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Piece : NSManagedObject
 
-// Insert code here to declare functionality of your managed object subclass
++ (instancetype)pieceWithTitle: (NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc artist:(NSString *)artist medium:(NSString *)medium price:(NSString *)price dimensions:(NSString *)dimensions show:(Show *)show beacon:(Beacon *)beacon;
 
 @end
 

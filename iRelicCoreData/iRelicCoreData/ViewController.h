@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Curator.h"
+#import "Show.h"
+#import "Piece.h"
+#import "Beacon.h"
+#import "CoreDataStack.h"
+#import "NSManagedObjectContext+NSManagedObjectContext.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic)Curator *curator;
 
 @end
 

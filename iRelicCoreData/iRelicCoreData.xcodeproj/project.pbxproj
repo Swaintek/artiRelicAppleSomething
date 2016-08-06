@@ -27,6 +27,7 @@
 		707DDB7D1D5684DF00F57408 /* Patron.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB711D5684DF00F57408 /* Patron.m */; };
 		707DDB7E1D5684DF00F57408 /* Piece+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */; };
 		707DDB7F1D5684DF00F57408 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB751D5684DF00F57408 /* Piece.m */; };
+		707DDB831D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB821D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,8 @@
 		707DDB741D5684DF00F57408 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
 		707DDB751D5684DF00F57408 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
 		707DDB801D56880600F57408 /* iRelicCoreData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iRelicCoreData.entitlements; sourceTree = "<group>"; };
+		707DDB811D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+NSManagedObjectContext.h"; sourceTree = "<group>"; };
+		707DDB821D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+NSManagedObjectContext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				707DDB081D56669400F57408 /* main.m */,
+				707DDB811D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.h */,
+				707DDB821D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				707DDB3F1D5666F500F57408 /* CoreDataStack.m in Sources */,
 				707DDB7C1D5684DF00F57408 /* Patron+CoreDataProperties.m in Sources */,
 				707DDB771D5684DF00F57408 /* Curator.m in Sources */,
+				707DDB831D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m in Sources */,
 				707DDB7B1D5684DF00F57408 /* Beacon.m in Sources */,
 				707DDB0F1D56669400F57408 /* ViewController.m in Sources */,
 				707DDB0C1D56669400F57408 /* AppDelegate.m in Sources */,
