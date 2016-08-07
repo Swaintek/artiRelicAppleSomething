@@ -53,7 +53,12 @@
         NSLog(@"Error fetching curator: %@",error);
     } else {
 //        self.curator = results.firstObject;
-        NSLog(@"Results: %@",results.firstObject);
+//        NSLog(@"Results: %@",results.firstObject);
+        Show *show = results.firstObject;
+        Piece *piece = [show.pieces anyObject];
+        NSString *pieceLabel = [NSString stringWithFormat:@"Title: %@  Subtitle: %@", piece.title, piece.subtitle];
+        NSLog(@"Show: %@", show);
+        NSLog(@"Piece in show: %@", pieceLabel);
         
     }
     

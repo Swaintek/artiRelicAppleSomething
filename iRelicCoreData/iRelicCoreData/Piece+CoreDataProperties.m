@@ -20,6 +20,8 @@
 @dynamic medium;
 @dynamic price;
 @dynamic dimensions;
+@dynamic image;
+@dynamic imageThumbnail;
 @dynamic show;
 @dynamic beacon;
 

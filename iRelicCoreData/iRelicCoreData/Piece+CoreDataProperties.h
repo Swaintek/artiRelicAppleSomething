@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *medium;
 @property (nullable, nonatomic, retain) NSString *price;
 @property (nullable, nonatomic, retain) NSString *dimensions;
+@property (nullable, nonatomic, retain) NSData *image;
+@property (nullable, nonatomic, retain) NSData *imageThumbnail;
 @property (nullable, nonatomic, retain) Show *show;
 @property (nullable, nonatomic, retain) Beacon *beacon;
 
