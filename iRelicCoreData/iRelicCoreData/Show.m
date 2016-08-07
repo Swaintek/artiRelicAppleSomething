@@ -14,7 +14,7 @@
 
 @implementation Show
 
-+ (instancetype)showWithTitle:(NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc gallery:(NSString *)gallery dates:(NSString *)dates pieces:(NSSet<Piece *> *)pieces curator:(Curator *)curator patrons:(NSSet<Patron *> *)patrons
++ (instancetype)showWithTitle:(NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc gallery:(NSString *)gallery dates:(NSString *)dates curator:(Curator *)curator
 {
     Show *show = [NSEntityDescription insertNewObjectForEntityForName:@"Show" inManagedObjectContext:[NSManagedObjectContext managerContext]];
     
@@ -23,9 +23,7 @@
     show.desc = desc;
     show.gallery = gallery;
     show.dates = dates;
-    show.pieces = pieces;
     show.curator = curator;
-    show.patrons = patrons;
     
     return show;
 }

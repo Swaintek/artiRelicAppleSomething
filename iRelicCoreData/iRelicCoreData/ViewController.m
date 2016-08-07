@@ -19,9 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Beacon *beacon = [Beacon beaconWithUIID:@"test1" major:@"test1" minor:@"test1"];
-    Piece *piece = [Piece pieceWithTitle:@"test1" subtitle:@"test1" desc:@"test1" artist:@"test1" medium:@"test1" price:@"test1" dimensions:@"test1" show:[self.curator.shows filteredSetUsingPredicate:<#(nonnull NSPredicate *)#>] beacon:beacon];
-    self.curator = [Curator curatorWithUserName:@"test1" password:@"test1" firstName:@"test1" lastName:@"test1" shows:nil];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,7 +13,7 @@
 
 @implementation Piece
 
-+ (instancetype)pieceWithTitle: (NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc artist:(NSString *)artist medium:(NSString *)medium price:(NSString *)price dimensions:(NSString *)dimensions show:(Show *)show beacon:(Beacon *)beacon
++ (instancetype)pieceWithTitle: (NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc artist:(NSString *)artist medium:(NSString *)medium price:(NSString *)price dimensions:(NSString *)dimensions
 {
     Piece *piece = [NSEntityDescription insertNewObjectForEntityForName:@"Piece" inManagedObjectContext:[NSManagedObjectContext managerContext]];
 
@@ -24,8 +24,6 @@
     piece.medium = medium;
     piece.price = price;
     piece.dimensions = dimensions;
-    piece.show = show;
-    piece.beacon = beacon;
     
     return piece;
 }

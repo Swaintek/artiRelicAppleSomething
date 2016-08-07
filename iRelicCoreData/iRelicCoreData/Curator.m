@@ -12,14 +12,13 @@
 
 @implementation Curator
 
-+ (instancetype) curatorWithUserName:(NSString *)userName password:(NSString *)password firstName:(NSString *)firstName lastName:(NSString *)lastName shows:(NSSet<Show *> *)shows
++ (instancetype) curatorWithUserName:(NSString *)userName password:(NSString *)password firstName:(NSString *)firstName lastName:(NSString *)lastName
 {
     Curator *curator = [NSEntityDescription insertNewObjectForEntityForName:@"Curator" inManagedObjectContext:[NSManagedObjectContext managerContext]];
     curator.userName = userName;
     curator.password = password;
     curator.firstName = firstName;
     curator.lastName = lastName;
-    curator.shows = shows;
     
     return curator;
 }

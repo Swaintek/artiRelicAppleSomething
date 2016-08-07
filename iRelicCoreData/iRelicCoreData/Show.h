@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Show : NSManagedObject
 
-+ (instancetype)showWithTitle:(NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc gallery:(NSString *)gallery dates:(NSString *)dates pieces:(NSSet<Piece *> *)pieces curator:(Curator *)curator patrons:(NSSet<Patron *> *)patrons;
++ (instancetype)showWithTitle:(NSString *)title subtitle:(NSString *)subtitle desc:(NSString *)desc gallery:(NSString *)gallery dates:(NSString *)dates curator:(Curator *)curator;
 
 @end
 

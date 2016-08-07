@@ -17,17 +17,17 @@
 		707DDB251D56669400F57408 /* iRelicCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB241D56669400F57408 /* iRelicCoreDataTests.m */; };
 		707DDB301D56669400F57408 /* iRelicCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB2F1D56669400F57408 /* iRelicCoreDataUITests.m */; };
 		707DDB3F1D5666F500F57408 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB3E1D5666F500F57408 /* CoreDataStack.m */; };
-		707DDB761D5684DF00F57408 /* Curator+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB631D5684DF00F57408 /* Curator+CoreDataProperties.m */; };
 		707DDB771D5684DF00F57408 /* Curator.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB651D5684DF00F57408 /* Curator.m */; };
-		707DDB781D5684DF00F57408 /* Show+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB671D5684DF00F57408 /* Show+CoreDataProperties.m */; };
 		707DDB791D5684DF00F57408 /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB691D5684DF00F57408 /* Show.m */; };
-		707DDB7A1D5684DF00F57408 /* Beacon+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB6B1D5684DF00F57408 /* Beacon+CoreDataProperties.m */; };
 		707DDB7B1D5684DF00F57408 /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB6D1D5684DF00F57408 /* Beacon.m */; };
-		707DDB7C1D5684DF00F57408 /* Patron+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB6F1D5684DF00F57408 /* Patron+CoreDataProperties.m */; };
 		707DDB7D1D5684DF00F57408 /* Patron.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB711D5684DF00F57408 /* Patron.m */; };
-		707DDB7E1D5684DF00F57408 /* Piece+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */; };
 		707DDB7F1D5684DF00F57408 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB751D5684DF00F57408 /* Piece.m */; };
 		707DDB831D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB821D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m */; };
+		707DDB8F1D577EA500F57408 /* Beacon+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB861D577EA500F57408 /* Beacon+CoreDataProperties.m */; };
+		707DDB901D577EA500F57408 /* Patron+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB881D577EA500F57408 /* Patron+CoreDataProperties.m */; };
+		707DDB911D577EA500F57408 /* Show+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB8A1D577EA500F57408 /* Show+CoreDataProperties.m */; };
+		707DDB921D577EA500F57408 /* Piece+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB8C1D577EA500F57408 /* Piece+CoreDataProperties.m */; };
+		707DDB931D577EA500F57408 /* Curator+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB8E1D577EA500F57408 /* Curator+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,29 +67,29 @@
 		707DDB311D56669400F57408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		707DDB3D1D5666F500F57408 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		707DDB3E1D5666F500F57408 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
-		707DDB621D5684DF00F57408 /* Curator+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Curator+CoreDataProperties.h"; sourceTree = "<group>"; };
-		707DDB631D5684DF00F57408 /* Curator+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Curator+CoreDataProperties.m"; sourceTree = "<group>"; };
 		707DDB641D5684DF00F57408 /* Curator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curator.h; sourceTree = "<group>"; };
 		707DDB651D5684DF00F57408 /* Curator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curator.m; sourceTree = "<group>"; };
-		707DDB661D5684DF00F57408 /* Show+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Show+CoreDataProperties.h"; sourceTree = "<group>"; };
-		707DDB671D5684DF00F57408 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Show+CoreDataProperties.m"; sourceTree = "<group>"; };
 		707DDB681D5684DF00F57408 /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
 		707DDB691D5684DF00F57408 /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
-		707DDB6A1D5684DF00F57408 /* Beacon+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beacon+CoreDataProperties.h"; sourceTree = "<group>"; };
-		707DDB6B1D5684DF00F57408 /* Beacon+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beacon+CoreDataProperties.m"; sourceTree = "<group>"; };
 		707DDB6C1D5684DF00F57408 /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
 		707DDB6D1D5684DF00F57408 /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beacon.m; sourceTree = "<group>"; };
-		707DDB6E1D5684DF00F57408 /* Patron+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Patron+CoreDataProperties.h"; sourceTree = "<group>"; };
-		707DDB6F1D5684DF00F57408 /* Patron+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Patron+CoreDataProperties.m"; sourceTree = "<group>"; };
 		707DDB701D5684DF00F57408 /* Patron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patron.h; sourceTree = "<group>"; };
 		707DDB711D5684DF00F57408 /* Patron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patron.m; sourceTree = "<group>"; };
-		707DDB721D5684DF00F57408 /* Piece+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Piece+CoreDataProperties.h"; sourceTree = "<group>"; };
-		707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Piece+CoreDataProperties.m"; sourceTree = "<group>"; };
 		707DDB741D5684DF00F57408 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
 		707DDB751D5684DF00F57408 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
 		707DDB801D56880600F57408 /* iRelicCoreData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iRelicCoreData.entitlements; sourceTree = "<group>"; };
 		707DDB811D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+NSManagedObjectContext.h"; sourceTree = "<group>"; };
 		707DDB821D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+NSManagedObjectContext.m"; sourceTree = "<group>"; };
+		707DDB851D577EA500F57408 /* Beacon+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Beacon+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB861D577EA500F57408 /* Beacon+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Beacon+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB871D577EA500F57408 /* Patron+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Patron+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB881D577EA500F57408 /* Patron+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Patron+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB891D577EA500F57408 /* Show+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Show+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB8A1D577EA500F57408 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Show+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB8B1D577EA500F57408 /* Piece+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Piece+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB8C1D577EA500F57408 /* Piece+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Piece+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB8D1D577EA500F57408 /* Curator+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Curator+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB8E1D577EA500F57408 /* Curator+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Curator+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,28 +213,36 @@
 		707DDB611D5684AB00F57408 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				707DDB621D5684DF00F57408 /* Curator+CoreDataProperties.h */,
-				707DDB631D5684DF00F57408 /* Curator+CoreDataProperties.m */,
+				707DDB841D577DDC00F57408 /* Entities */,
 				707DDB641D5684DF00F57408 /* Curator.h */,
 				707DDB651D5684DF00F57408 /* Curator.m */,
-				707DDB661D5684DF00F57408 /* Show+CoreDataProperties.h */,
-				707DDB671D5684DF00F57408 /* Show+CoreDataProperties.m */,
 				707DDB681D5684DF00F57408 /* Show.h */,
 				707DDB691D5684DF00F57408 /* Show.m */,
-				707DDB6A1D5684DF00F57408 /* Beacon+CoreDataProperties.h */,
-				707DDB6B1D5684DF00F57408 /* Beacon+CoreDataProperties.m */,
-				707DDB6C1D5684DF00F57408 /* Beacon.h */,
-				707DDB6D1D5684DF00F57408 /* Beacon.m */,
-				707DDB6E1D5684DF00F57408 /* Patron+CoreDataProperties.h */,
-				707DDB6F1D5684DF00F57408 /* Patron+CoreDataProperties.m */,
-				707DDB701D5684DF00F57408 /* Patron.h */,
-				707DDB711D5684DF00F57408 /* Patron.m */,
-				707DDB721D5684DF00F57408 /* Piece+CoreDataProperties.h */,
-				707DDB731D5684DF00F57408 /* Piece+CoreDataProperties.m */,
 				707DDB741D5684DF00F57408 /* Piece.h */,
 				707DDB751D5684DF00F57408 /* Piece.m */,
+				707DDB6C1D5684DF00F57408 /* Beacon.h */,
+				707DDB6D1D5684DF00F57408 /* Beacon.m */,
+				707DDB701D5684DF00F57408 /* Patron.h */,
+				707DDB711D5684DF00F57408 /* Patron.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		707DDB841D577DDC00F57408 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				707DDB851D577EA500F57408 /* Beacon+CoreDataProperties.h */,
+				707DDB861D577EA500F57408 /* Beacon+CoreDataProperties.m */,
+				707DDB871D577EA500F57408 /* Patron+CoreDataProperties.h */,
+				707DDB881D577EA500F57408 /* Patron+CoreDataProperties.m */,
+				707DDB891D577EA500F57408 /* Show+CoreDataProperties.h */,
+				707DDB8A1D577EA500F57408 /* Show+CoreDataProperties.m */,
+				707DDB8B1D577EA500F57408 /* Piece+CoreDataProperties.h */,
+				707DDB8C1D577EA500F57408 /* Piece+CoreDataProperties.m */,
+				707DDB8D1D577EA500F57408 /* Curator+CoreDataProperties.h */,
+				707DDB8E1D577EA500F57408 /* Curator+CoreDataProperties.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,20 +381,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707DDB7E1D5684DF00F57408 /* Piece+CoreDataProperties.m in Sources */,
-				707DDB781D5684DF00F57408 /* Show+CoreDataProperties.m in Sources */,
+				707DDB911D577EA500F57408 /* Show+CoreDataProperties.m in Sources */,
 				707DDB791D5684DF00F57408 /* Show.m in Sources */,
+				707DDB931D577EA500F57408 /* Curator+CoreDataProperties.m in Sources */,
 				707DDB7D1D5684DF00F57408 /* Patron.m in Sources */,
-				707DDB761D5684DF00F57408 /* Curator+CoreDataProperties.m in Sources */,
-				707DDB7A1D5684DF00F57408 /* Beacon+CoreDataProperties.m in Sources */,
+				707DDB901D577EA500F57408 /* Patron+CoreDataProperties.m in Sources */,
 				707DDB3F1D5666F500F57408 /* CoreDataStack.m in Sources */,
-				707DDB7C1D5684DF00F57408 /* Patron+CoreDataProperties.m in Sources */,
 				707DDB771D5684DF00F57408 /* Curator.m in Sources */,
 				707DDB831D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m in Sources */,
 				707DDB7B1D5684DF00F57408 /* Beacon.m in Sources */,
 				707DDB0F1D56669400F57408 /* ViewController.m in Sources */,
 				707DDB0C1D56669400F57408 /* AppDelegate.m in Sources */,
 				707DDB7F1D5684DF00F57408 /* Piece.m in Sources */,
+				707DDB921D577EA500F57408 /* Piece+CoreDataProperties.m in Sources */,
+				707DDB8F1D577EA500F57408 /* Beacon+CoreDataProperties.m in Sources */,
 				707DDB151D56669400F57408 /* iRelicCoreData.xcdatamodeld in Sources */,
 				707DDB091D56669400F57408 /* main.m in Sources */,
 			);
