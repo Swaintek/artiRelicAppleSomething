@@ -19,6 +19,7 @@
     </entity>
     <entity name="Piece" representedClassName="Piece" syncable="YES">
         <attribute name="artist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="audio" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dimensions" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
@@ -41,7 +42,7 @@
         <relationship name="pieces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Piece" inverseName="show" inverseEntity="Piece" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Piece" positionX="4588" positionY="1413" width="128" height="208"/>
+        <element name="Piece" positionX="4588" positionY="1413" width="128" height="223"/>
         <element name="Show" positionX="4381" positionY="1413" width="128" height="163"/>
         <element name="Curator" positionX="4392" positionY="1679" width="128" height="118"/>
         <element name="Beacon" positionX="4606" positionY="1679" width="128" height="103"/>

@@ -27,7 +27,7 @@
 		707DDB901D577EA500F57408 /* Patron+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB881D577EA500F57408 /* Patron+CoreDataProperties.m */; };
 		707DDB911D577EA500F57408 /* Show+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB8A1D577EA500F57408 /* Show+CoreDataProperties.m */; };
 		707DDB931D577EA500F57408 /* Curator+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB8E1D577EA500F57408 /* Curator+CoreDataProperties.m */; };
-		707DDB961D57901F00F57408 /* Piece+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB951D57901F00F57408 /* Piece+CoreDataProperties.m */; };
+		707DDB991D58FF7900F57408 /* Piece+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 707DDB981D58FF7900F57408 /* Piece+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,8 +88,8 @@
 		707DDB8A1D577EA500F57408 /* Show+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Show+CoreDataProperties.m"; sourceTree = "<group>"; };
 		707DDB8D1D577EA500F57408 /* Curator+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Curator+CoreDataProperties.h"; sourceTree = "<group>"; };
 		707DDB8E1D577EA500F57408 /* Curator+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Curator+CoreDataProperties.m"; sourceTree = "<group>"; };
-		707DDB941D57901F00F57408 /* Piece+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Piece+CoreDataProperties.h"; sourceTree = "<group>"; };
-		707DDB951D57901F00F57408 /* Piece+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Piece+CoreDataProperties.m"; sourceTree = "<group>"; };
+		707DDB971D58FF7900F57408 /* Piece+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Piece+CoreDataProperties.h"; sourceTree = "<group>"; };
+		707DDB981D58FF7900F57408 /* Piece+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Piece+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,12 +231,12 @@
 		707DDB841D577DDC00F57408 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				707DDB971D58FF7900F57408 /* Piece+CoreDataProperties.h */,
+				707DDB981D58FF7900F57408 /* Piece+CoreDataProperties.m */,
 				707DDB871D577EA500F57408 /* Patron+CoreDataProperties.h */,
 				707DDB881D577EA500F57408 /* Patron+CoreDataProperties.m */,
 				707DDB851D577EA500F57408 /* Beacon+CoreDataProperties.h */,
 				707DDB861D577EA500F57408 /* Beacon+CoreDataProperties.m */,
-				707DDB941D57901F00F57408 /* Piece+CoreDataProperties.h */,
-				707DDB951D57901F00F57408 /* Piece+CoreDataProperties.m */,
 				707DDB891D577EA500F57408 /* Show+CoreDataProperties.h */,
 				707DDB8A1D577EA500F57408 /* Show+CoreDataProperties.m */,
 				707DDB8D1D577EA500F57408 /* Curator+CoreDataProperties.h */,
@@ -387,7 +387,7 @@
 				707DDB7D1D5684DF00F57408 /* Patron.m in Sources */,
 				707DDB901D577EA500F57408 /* Patron+CoreDataProperties.m in Sources */,
 				707DDB3F1D5666F500F57408 /* CoreDataStack.m in Sources */,
-				707DDB961D57901F00F57408 /* Piece+CoreDataProperties.m in Sources */,
+				707DDB991D58FF7900F57408 /* Piece+CoreDataProperties.m in Sources */,
 				707DDB771D5684DF00F57408 /* Curator.m in Sources */,
 				707DDB831D569B9800F57408 /* NSManagedObjectContext+NSManagedObjectContext.m in Sources */,
 				707DDB7B1D5684DF00F57408 /* Beacon.m in Sources */,

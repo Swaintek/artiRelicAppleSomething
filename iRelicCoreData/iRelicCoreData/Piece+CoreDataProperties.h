@@ -2,7 +2,7 @@
 //  Piece+CoreDataProperties.h
 //  iRelicCoreData
 //
-//  Created by Jeremy Moore on 8/7/16.
+//  Created by Jeremy Moore on 8/8/16.
 //  Copyright © 2016 Jeremy Moore. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *dimensions;
 @property (nullable, nonatomic, retain) NSData *image;
 @property (nullable, nonatomic, retain) NSData *imageThumbnail;
+@property (nullable, nonatomic, retain) NSData *audio;
 @property (nullable, nonatomic, retain) Show *show;
 @property (nullable, nonatomic, retain) Beacon *beacon;
 
