@@ -17,6 +17,8 @@
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic)Curator *curator;
+@property (strong, nonatomic)Show *show;
+@property (strong, nonatomic)Piece *piece;
 
 @end
 

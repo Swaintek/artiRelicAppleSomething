@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Skh-0i-Kmf">
-                                <rect key="frame" x="262.5" y="285" width="75" height="30"/>
+                                <rect key="frame" x="262" y="285" width="75" height="30"/>
                                 <state key="normal" title="Save Show">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -26,16 +26,42 @@
                                     <action selector="saveButtonSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Bh-Ez-qkO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02S-I6-9b6">
+                                <rect key="frame" x="263" y="195" width="74" height="30"/>
+                                <state key="normal" title="Pick Photo">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pickPhotoSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEX-fU-pm3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="77o-Xw-kBp">
+                                <rect key="frame" x="225" y="323" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="iD0-7A-7jm"/>
+                                    <constraint firstAttribute="width" constant="150" id="sKX-lO-uuQ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Skh-0i-Kmf" firstAttribute="top" secondItem="02S-I6-9b6" secondAttribute="bottom" constant="60" id="2X5-Wh-YDo"/>
+                            <constraint firstItem="02S-I6-9b6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9zt-eT-vvQ"/>
                             <constraint firstItem="Skh-0i-Kmf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QYz-cq-WYI"/>
+                            <constraint firstItem="77o-Xw-kBp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U4G-4L-CTI"/>
                             <constraint firstItem="Skh-0i-Kmf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bvq-A1-ElK"/>
+                            <constraint firstItem="77o-Xw-kBp" firstAttribute="top" secondItem="Skh-0i-Kmf" secondAttribute="bottom" constant="8" id="sQu-Gy-M4E"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pieceImage" destination="77o-Xw-kBp" id="o31-SF-dah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="264" y="198"/>
         </scene>
     </scenes>
 </document>
