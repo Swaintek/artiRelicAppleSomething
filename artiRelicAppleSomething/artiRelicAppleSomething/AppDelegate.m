@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import <EstimoteSDK/EstimoteSDK.h>
 
+@import Stripe;
+
 @interface AppDelegate ()
 
 @end
@@ -18,6 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [ESTConfig setupAppID:@"proximity-content-for-mult-ioa" andAppToken:@"b796ce4b2a572e8707b202a92fb80ee5"];
+
+    // Stripe integration config and merch ID
+    [[STPPaymentConfiguration sharedConfiguration] setPublishableKey:@"pk_test_TGCXR26srXhXwWm0goG29cDi"];
+    [[STPPaymentConfiguration sharedConfiguration] setAppleMerchantIdentifier:@"merchant.com.artiRelicAppleSomething"];
+    
     return YES;
 }
 
